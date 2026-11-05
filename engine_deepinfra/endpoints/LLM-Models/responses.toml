@@ -1,0 +1,33 @@
+id = "responses"
+label = "Responses"
+category = "LLM"
+platform = "deepinfra"
+endpoint = "deepinfra/responses"
+description = "Openai Responses"
+
+[pricing]
+note = "unset — take the price from the provider's own pricing page before shipping"
+
+[general]
+kind = "text"
+prompt = "optional"
+
+[params.fail_fast]
+label = "Fail_fast"
+type = "boolean"
+default = false
+note = "If true, the request is rejected immediately with HTTP 429 when the model has no spare capacity, instead of waiting in the queue. Opt-in; the default (false) keeps standard queueing behavior."
+
+[params.model]
+label = "Model"
+type = "text"
+
+[params.store]
+label = "Store"
+type = "boolean"
+default = false
+
+[params.background]
+label = "Background"
+type = "boolean"
+default = false

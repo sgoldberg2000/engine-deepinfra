@@ -1,0 +1,26 @@
+id = "llm"
+label = "Llm"
+category = "LLM"
+platform = "deepinfra"
+endpoint = "deepinfra/llm"
+description = "Deploy Create Llm"
+
+[pricing]
+note = "unset — take the price from the provider's own pricing page before shipping"
+
+[general]
+kind = "text"
+prompt = "none"
+
+[params.model_name]
+label = "Model_name"
+type = "text"
+note = "model name for deepinfra (username/mode-name format)"
+
+[params.num_gpus]
+label = "Num_gpus"
+type = "integer"
+default = 1
+min = 1.0
+max = 8.0
+note = "Number of GPUs used by one instance"

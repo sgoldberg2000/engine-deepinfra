@@ -1,0 +1,8 @@
+platform: deepinfra
+media_type: text
+endpoint: deepinfra/llm
+description: Llm
+parameters:
+  num_gpus: 1
+prompt_prefix: ""
+prompt_suffix: ""

@@ -1,0 +1,18 @@
+id = "videos"
+label = "Videos"
+category = "VID"
+platform = "deepinfra"
+endpoint = "deepinfra/videos"
+description = "Create Video Generation"
+
+[pricing]
+note = "unset — take the price from the provider's own pricing page before shipping"
+
+[general]
+kind = "video"
+prompt = "required"
+image_url_param = "image_url"
+
+[params.model]
+label = "Model"
+type = "text"

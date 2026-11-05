@@ -1,0 +1,32 @@
+id = "generations"
+label = "Generations"
+category = "IMG"
+platform = "deepinfra"
+endpoint = "deepinfra/generations"
+description = "Openai Images Generations"
+
+[pricing]
+note = "unset — take the price from the provider's own pricing page before shipping"
+
+[general]
+kind = "image"
+prompt = "required"
+
+[params.model]
+label = "Model"
+type = "text"
+note = "The model to use for image generation."
+
+[params.n]
+label = "N"
+type = "integer"
+default = 1
+min = 1.0
+max = 4.0
+note = "The number of images to generate."
+
+[params.size]
+label = "Size"
+type = "text"
+default = "1024x1024"
+note = "The size of the generated images. Available sizes depend on the model."

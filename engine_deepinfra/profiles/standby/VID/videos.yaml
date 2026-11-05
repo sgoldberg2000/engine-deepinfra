@@ -1,0 +1,9 @@
+platform: deepinfra
+media_type: video
+endpoint: deepinfra/videos
+description: Videos
+parameters:
+  {}
+prompt_prefix: ""
+prompt_suffix: ""
+image_url_param: image_url

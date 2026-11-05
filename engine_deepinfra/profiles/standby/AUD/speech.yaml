@@ -1,0 +1,9 @@
+platform: deepinfra
+media_type: audio
+endpoint: deepinfra/speech
+description: Speech
+parameters:
+  fail_fast: false
+  speed: 1.0
+prompt_prefix: ""
+prompt_suffix: ""

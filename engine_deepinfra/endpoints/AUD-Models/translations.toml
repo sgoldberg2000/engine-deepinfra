@@ -1,0 +1,13 @@
+id = "translations"
+label = "Translations"
+category = "AUD"
+platform = "deepinfra"
+endpoint = "deepinfra/translations"
+description = "Openai Audio Translations"
+
+[pricing]
+note = "unset — take the price from the provider's own pricing page before shipping"
+
+[general]
+kind = "audio"
+prompt = "none"

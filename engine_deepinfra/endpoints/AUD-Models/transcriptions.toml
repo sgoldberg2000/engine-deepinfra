@@ -1,0 +1,13 @@
+id = "transcriptions"
+label = "Transcriptions"
+category = "AUD"
+platform = "deepinfra"
+endpoint = "deepinfra/transcriptions"
+description = "Openai Audio Transcriptions"
+
+[pricing]
+note = "unset — take the price from the provider's own pricing page before shipping"
+
+[general]
+kind = "audio"
+prompt = "none"

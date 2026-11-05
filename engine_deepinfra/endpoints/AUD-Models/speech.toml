@@ -1,0 +1,37 @@
+id = "speech"
+label = "Speech"
+category = "AUD"
+platform = "deepinfra"
+endpoint = "deepinfra/speech"
+description = "Openai Audio Speech"
+
+[pricing]
+note = "unset — take the price from the provider's own pricing page before shipping"
+
+[general]
+kind = "audio"
+prompt = "none"
+
+[params.fail_fast]
+label = "Fail_fast"
+type = "boolean"
+default = false
+note = "If true, the request is rejected immediately with HTTP 429 when the model has no spare capacity, instead of waiting in the queue. Opt-in; the default (false) keeps standard queueing behavior."
+
+[params.model]
+label = "Model"
+type = "text"
+note = "model name"
+
+[params.input]
+label = "Input"
+type = "text"
+note = "Text to convert to speech"
+
+[params.speed]
+label = "Speed"
+type = "number"
+default = 1.0
+min = 0.25
+max = 4.0
+note = "speed of the speech"

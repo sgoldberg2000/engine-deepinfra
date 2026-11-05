@@ -1,0 +1,24 @@
+id = "stream"
+label = "Stream"
+category = "AUD"
+platform = "deepinfra"
+endpoint = "deepinfra/stream"
+description = "Text To Speech Stream"
+
+[pricing]
+note = "unset — take the price from the provider's own pricing page before shipping"
+
+[general]
+kind = "audio"
+prompt = "none"
+
+[params.text]
+label = "Text"
+type = "text"
+note = "Text to convert to speech"
+
+[params.model_id]
+label = "Model_id"
+type = "text"
+default = "hexgrad/Kokoro-82M"
+note = "Model ID to use for the conversion"

@@ -1,0 +1,8 @@
+platform: deepinfra
+media_type: audio
+endpoint: deepinfra/transcriptions
+description: Transcriptions
+parameters:
+  {}
+prompt_prefix: ""
+prompt_suffix: ""

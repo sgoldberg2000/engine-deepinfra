@@ -1,0 +1,9 @@
+platform: deepinfra
+media_type: image
+endpoint: deepinfra/generations
+description: Generations
+parameters:
+  n: 1
+  size: "1024x1024"
+prompt_prefix: ""
+prompt_suffix: ""

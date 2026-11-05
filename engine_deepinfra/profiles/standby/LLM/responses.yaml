@@ -1,0 +1,10 @@
+platform: deepinfra
+media_type: text
+endpoint: deepinfra/responses
+description: Responses
+parameters:
+  fail_fast: false
+  store: false
+  background: false
+prompt_prefix: ""
+prompt_suffix: ""

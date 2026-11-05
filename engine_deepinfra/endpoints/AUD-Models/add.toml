@@ -1,0 +1,13 @@
+id = "add"
+label = "Add"
+category = "AUD"
+platform = "deepinfra"
+endpoint = "deepinfra/add"
+description = "Create Voice"
+
+[pricing]
+note = "unset — take the price from the provider's own pricing page before shipping"
+
+[general]
+kind = "audio"
+prompt = "none"

@@ -1,0 +1,8 @@
+platform: deepinfra
+media_type: image
+endpoint: deepinfra/edits
+description: Edits
+parameters:
+  {}
+prompt_prefix: ""
+prompt_suffix: ""

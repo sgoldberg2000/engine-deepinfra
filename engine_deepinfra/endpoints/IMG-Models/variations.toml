@@ -1,0 +1,13 @@
+id = "variations"
+label = "Variations"
+category = "IMG"
+platform = "deepinfra"
+endpoint = "deepinfra/variations"
+description = "Openai Images Variations"
+
+[pricing]
+note = "unset — take the price from the provider's own pricing page before shipping"
+
+[general]
+kind = "image"
+prompt = "none"

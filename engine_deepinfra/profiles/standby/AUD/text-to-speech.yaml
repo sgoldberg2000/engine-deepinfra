@@ -1,0 +1,8 @@
+platform: deepinfra
+media_type: audio
+endpoint: deepinfra/text-to-speech
+description: Text To Speech
+parameters:
+  model_id: "hexgrad/Kokoro-82M"
+prompt_prefix: ""
+prompt_suffix: ""

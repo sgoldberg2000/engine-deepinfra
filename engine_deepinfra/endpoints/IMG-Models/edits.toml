@@ -1,0 +1,13 @@
+id = "edits"
+label = "Edits"
+category = "IMG"
+platform = "deepinfra"
+endpoint = "deepinfra/edits"
+description = "Openai Images Edits"
+
+[pricing]
+note = "unset — take the price from the provider's own pricing page before shipping"
+
+[general]
+kind = "image"
+prompt = "none"

@@ -1,0 +1,13 @@
+id = "edit"
+label = "Edit"
+category = "AUD"
+platform = "deepinfra"
+endpoint = "deepinfra/edit"
+description = "Update Voice"
+
+[pricing]
+note = "unset — take the price from the provider's own pricing page before shipping"
+
+[general]
+kind = "audio"
+prompt = "none"
